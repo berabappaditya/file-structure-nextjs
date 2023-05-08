@@ -1,0 +1,41 @@
+{
+  "type": "folder",
+  "name": "public",
+  "show": false,
+  "path": [
+    {
+      "type": "folder",
+      "name": "src",
+      "show": false,
+      "path": [
+        {
+          "type": "folder",
+          "name": "pages",
+          "show": false,
+          "path": [
+            { "type": "file", "name": "app.js" },
+            { "type": "file", "name": "ap.css" },
+            {
+              "type": "folder",
+              "name": "dash",
+              "show": false,
+              "path": [
+                { "type": "file", "name": "fill.js" },
+                { "type": "file", "name": "input.js" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "component",
+          "show": false,
+          "path": [
+            { "type": "folder", "show": false, "name": "from" },
+            { "type": "file", "name": "switch.js" }
+          ]
+        }
+      ]
+    }
+  ]
+}
